@@ -17,3 +17,4 @@ For the next 90 days, I commit to becoming an Applied AI Engineer by building ag
 
 ## Progress Log
 - Day 1: Project initialized
+- Day 2: Task Breakdown Agent working
