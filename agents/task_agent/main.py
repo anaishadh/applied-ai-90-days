@@ -87,7 +87,7 @@ def save_tasks_to_file(task_data: dict):
         return
 
     with open(filename, "w") as f:
-        json.dump(validated.dict(), f, indent=2)
+        json.dump(validated.model_dump(), f, indent=2)
 
     print(f"✅ Validated tasks saved to {filename}")
 
