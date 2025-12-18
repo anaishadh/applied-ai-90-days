@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from pydantic import BaseModel, ValidationError
 from typing import List
+from executor import execute_tasks
 
 class TaskPlan(BaseModel):
     steps: List[str]
@@ -90,7 +91,7 @@ def save_tasks_to_file(task_data: dict):
         json.dump(validated.model_dump(), f, indent=2)
 
     print(f"✅ Validated tasks saved to {filename}")
-
+    return filename
 
 
 if __name__ == "__main__":
@@ -102,7 +103,8 @@ if __name__ == "__main__":
         print("\n--- Parsed Output ---")
         print(json.dumps(result, indent=2))
 
-        save_tasks_to_file(result)
+        filename = save_tasks_to_file(result)
+        execute_tasks(filename)
 
     except Exception as e:
         print("❌ Error occurred:", str(e))
