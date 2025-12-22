@@ -28,3 +28,5 @@ For the next 90 days, I commit to becoming an Applied AI Engineer by building ag
 - Day 10: Updated summarize.py
 - Day 11: Updated main.py - Wiring all together
 - Day 12: Failure handling and noise check for research agent
+- Day 13: Enforce source honesty in summarization
+- Day 14: Week2 review
