@@ -23,3 +23,8 @@ For the next 90 days, I commit to becoming an Applied AI Engineer by building ag
 - Day 5: Task Breakdown Agent demo (see demos/task_agent_demo_day5.mp4)
 - Day 6: Added executor that executes tasks assigned by planner
 - Day 7: Week1 review and next steps
+- Day 8: Project setup - Research agent
+- Day 9: Updated search.py for web search agent
+- Day 10: Updated summarize.py
+- Day 11: Updated main.py - Wiring all together
+- Day 12: Failure handling and noise check for research agent
