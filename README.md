@@ -44,3 +44,7 @@ For the next 90 days, I commit to becoming an Applied AI Engineer by building ag
 - Day 26: Demo 
 - Day 27: Review and next steps.
 - Day 28: Week 4 complete review.
+- Day 29: Building a queue agent
+- Day 30: Implementing true async
+- Day 31: Crash recovery and idempotency
+- Day 32-35: Demo and Week 5 complete review
