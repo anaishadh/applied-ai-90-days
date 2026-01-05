@@ -3,7 +3,7 @@ import asyncio
 import os
 import time
 import json
-from agents.queue_agent.worker import process_task, load_tasks  # reuse your queue agent
+from worker import process_task, load_tasks  # reuse your queue agent
 
 app = FastAPI()
 QUEUE_DIR = "queue"
