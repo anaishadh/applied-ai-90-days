@@ -1,0 +1,7 @@
+{
+  "topic": "agentic AI fundamentals",
+  "raw_notes": "Output of research_agent for topic 'agentic AI fundamentals'",
+  "analysis": "Output of analysis_agent for topic 'agentic AI fundamentals'",
+  "draft": "Output of writer_agent for topic 'agentic AI fundamentals'",
+  "final": "Output of review_agent for topic 'agentic AI fundamentals'"
+}
